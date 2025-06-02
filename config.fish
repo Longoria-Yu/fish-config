@@ -12,6 +12,8 @@ if status is-interactive
     export GCPPATH="$HOME/Downloads/google-cloud-sdk/bin"
     export PATH="$GCPPATH:$PATH"
     export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+    export ISTIOPATH="$HOME/istio-1.26.1/bin"
+    export PATH="$ISTIOPATH:$PATH"
 
     export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
